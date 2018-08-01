@@ -8,7 +8,7 @@ if (!WebAssembly.instantiateStreaming) { // polyfill
 }
 
 const go = new Go();
-WebAssembly.instantiateStreaming(fetch("rivine.wasm"), go.importObject)
+WebAssembly.instantiateStreaming(fetch("app.wasm"), go.importObject)
   .then((result) => {
     return WebAssembly.instantiate(result.module, go.importObject);
   })
