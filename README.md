@@ -1,8 +1,8 @@
 # x-wallet
 
-An experimental web wallet client for tfchain.
+An experimental "web wallet client" playground for tfchain.
 
-**WARNING**: This is an experimental project, still in development.
+**WARNING**: This is an experimental playground, do not use it, unless you want to fool around. It does nothing useful at the moment.
 
 ## Experiments
 
@@ -60,3 +60,9 @@ and play with it (using the exposed JS global functions `randomkeypair` and `sig
 < undefined
 [Log] {"version":1,"data":{"coininputs":[{"parentid":"eac892a5a715b697ccafa6dd72a21fb7a3c1b3fad197890cc2b38a6ebf1bb9d3","fulfillment":{"type":1,"data":{"publickey":"ed25519:a474065da9eb7cfd75b6469e76251ab394dbb80f3312c5ee11370d660e3746fa","signature":"8806cce8f137f352a99cdc9ab18ce8526eac8c5160ec4dd9f640e8af3a42ce05cbcddadcb3479730dfc5feb33aa251f76c872ff132c2887c73b58ff43a7d4105"}}}],"coinoutputs":[{"value":"100000000000","condition":{}}],"minerfees":["100000000"]}} (go-wasm-runtime.js, line 257)
 ```
+
+## Repository Owners
+
+* Rob Van Mieghem (@robvanmighem)
+* Lee Smet (@leesmet)
+* Glen De Cauwsemaecker (@glendc)
